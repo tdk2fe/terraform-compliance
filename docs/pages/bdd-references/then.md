@@ -117,7 +117,7 @@ This step will execute tests that is applicable for both per rule and per securi
 * **must not**: The port(s) given must not exist in ANY rule of the Security Group.
 * **must only**: The port(s) given must be exactly same like the ones defined in Security Group.
 
-Please not that `must not` condition is executed per every Security Group Rule, while `must not` and `must only` is 
+Please not that `must not` condition is executed per every Security Group Rule, while `must` and `must only` is 
 executed for ALL rules exist in a Security Group.
 
 ------------------------
